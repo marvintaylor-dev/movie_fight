@@ -1,5 +1,7 @@
 # movie_fight
 
+//Currently Down Due to HTTPS permission issues via the Movies API
+
 A project from Colt Steele and Stephen Grider's course on Modern Javascript.
 
 The search feature uses a nice technique of debouncing in order to avoid excessive API calls by creating a delay after something is typed. Only after
