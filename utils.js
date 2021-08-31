@@ -1,3 +1,4 @@
+
 //func is the function being passed into debounce
 const debounce = (func, delay = 1000) => {
     let timeoutId;

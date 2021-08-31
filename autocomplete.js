@@ -1,11 +1,13 @@
 // RESUSABLE CODE TO CREATE OTHER WIDGETS
 
+
 const createAutoComplete = ({
-    root,
-    renderOption,
-    onOptionSelect,
-    inputValue,
-    fetchData }) => {
+    root, //some html element inside of our document that we want to show this autocomplete in
+    renderOption, //rendering each movie
+    onOptionSelect, //when we click on a result
+    inputValue, //when we click on a result it fills the input with what we clicked on
+    fetchData //takes a user input and runs a search on the API
+}) => {
     root.innerHTML = `
     <label><b>Search</></label>
     <input class="input" />

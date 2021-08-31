@@ -3,6 +3,7 @@
 //references to whatever new thing you're working on. Ex: movie.Title may become
 //recipe.name depending on your API
 
+
 const autoCompleteConfig = {
     renderOption(movie) {
         const imgSrc = movie.Poster === 'N/A' ? '' : movie.Poster;
